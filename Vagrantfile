@@ -71,7 +71,6 @@ Vagrant.configure("2") do |config|
 		subconfig.vm.provision "shell", path: PROVISION_UPDATE_FILE
 		subconfig.vm.provision "shell", path: PROVISION_MYSQL_FILE
 		subconfig.vm.provision "shell", path: PROVISION_CONFDB_FILE
-
 		
 	end
 end

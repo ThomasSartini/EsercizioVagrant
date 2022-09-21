@@ -1,6 +1,6 @@
 
 <h1>PHP test connection </h1>
-<p>elemnti nella tabella vagrant.valori: </p>
+<p>elementi nella tabella valori, del db vagrant, dell'host 10.10.20.15: </p>
 
 <?php
 ini_set('display_errors', 1);
